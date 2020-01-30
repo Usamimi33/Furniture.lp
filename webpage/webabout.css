@@ -1,5 +1,4 @@
-* {
-    width:1280px;
+* {;
     /*margin:0px;
     padding:0px*/
 
@@ -41,14 +40,14 @@ body {
 }
 
 
-/*
+
 .header-right {
     width: 335px;
     height: 35px;
     float: left;
 }
 
-
+/*
 .header-right ul {
     display:flex;
 }
@@ -92,4 +91,46 @@ main.main-visual h1 {
     margin:264px 578px 341px 0 ;
     background: #FFFFFF ; /*0% 0% no-repeat padding-box */
     opacity: 0.8;
+}
+
+/*暮らしを提案する*/
+.intro-section-img {
+    margin-top:142px;
+    width: 544px;
+    height: 500px;
+}
+/*
+.test {
+    padding:142px;
+} */
+
+.intro-section-header {
+    padding: 142px;
+    display: flex;
+    
+}
+
+.intro-section-header h3 {
+    width: 474px;
+    height: 29px;
+    letter-spacing: 2.5px;
+    color: #3B3B3B;
+    opacity: 1;
+    font-size: 25px;
+}
+
+.intro-section-txt {
+    padding-top: 201px;
+    padding-left:70px;
+}
+
+.intro-section-header p {
+    width: 474px;
+    height: 138px;
+    letter-spacing: 0.36px;
+    color: #3B3B3B;
+    opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 92px;
+    font-size: 12px;
 }

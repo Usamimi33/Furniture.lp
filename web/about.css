@@ -74,12 +74,12 @@ opacity: 0.5;
 .container {
     top: 324px;
     left: 0px;
-    width: 702px;
-    height: 136px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 1280px;
+    height: 60px;
+    background: #FFFFFF;
     opacity: 0.8;
     }
-.container p {
+.propose {
     top: 355px;
     left: 88px;
     width: 519px;
