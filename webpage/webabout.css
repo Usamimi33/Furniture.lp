@@ -41,6 +41,7 @@ body {
 
 
 
+
 .header-right {
     width: 335px;
     height: 35px;
@@ -87,7 +88,7 @@ body {
     opacity: 1;
 }
 
-main.main-visual h1 {
+main-visual-ttl {
     margin:264px 578px 341px 0 ;
     background: #FFFFFF ; /*0% 0% no-repeat padding-box */
     opacity: 0.8;
@@ -105,7 +106,8 @@ main.main-visual h1 {
 } */
 
 .intro-section-header {
-    padding: 142px;
+    padding-top: 142px;
+    padding-left: 88px;
     display: flex;
     
 }
@@ -124,7 +126,7 @@ main.main-visual h1 {
     padding-left:70px;
 }
 
-.intro-section-header p {
+.description {
     width: 474px;
     height: 138px;
     letter-spacing: 0.36px;
@@ -133,4 +135,134 @@ main.main-visual h1 {
     padding-top: 40px;
     padding-bottom: 92px;
     font-size: 12px;
+}
+
+/*豊富なスタイル*/
+.style-section {
+    padding-top: 210px
+}
+
+.style-section h4 {
+    width: 194px;
+    height: 29px;
+    padding:0 543px 40px 543px ;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #3B3B3B;
+    opacity: 1;
+    margin: 0 ;
+}
+
+.style-img {
+    width: 964px;
+    height: 503px;
+    margin: 0 158px;
+    margin-bottom: 30px;
+}
+
+
+
+/*ニュース*/
+
+.news-section {
+    margin-top: 210px;
+    
+}
+
+.news-section h6 {
+    width: 79px;
+    height: 29px;
+    text-align: left;
+    font-size:25px;
+    letter-spacing: 2.5px;
+    color: #3B3B3B;
+    opacity: 1;
+    padding:0 605px;
+    margin:0px;
+    padding-bottom: 50px;
+}
+
+.news-section p {
+    width: 112px;
+    height: 22px;
+    text-align: left;
+    letter-spacing: 1.05px;
+    color: #3B3B3B;
+    opacity: 1;
+    font-size: 21px;
+    padding: 50px 578px 0 580px ;
+    margin: 0 ;
+}
+
+.news-img {
+   
+   display: flex;
+    justify-content: center;
+
+    
+}
+
+/*お問い合わせフォーム*/
+.contact-section h6 {
+    width: 131px;
+    height: 29px;
+    text-align: left;
+    font-size:  25px;
+    letter-spacing: 2.5px;
+    color: #3B3B3B;
+    opacity: 1;
+    padding: 210px 574.5px 60px 574.5px;
+    margin:0;
+    
+}
+
+.contact-section form {
+    padding-top: 60px;
+    
+}
+
+.contact-form input {
+    display: block;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.name {
+    width: 463px;
+    height: 35px;
+    border: 0.5px 
+    border-color:solid #707070;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.mail {
+    width: 463px;
+    height: 35px;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px 
+    border-color:solid #707070;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin
+}
+
+.contact {
+    width: 463px;
+    height: 156px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px 
+    border-color:solid #707070;
+    border-radius: 11px;
+    opacity: 0.6;
+}
+.contact-form textarea {
+    display: block;
+    margin:0 auto;
+}
+
+.submit-btn {
+    display: block;
 }
