@@ -15,16 +15,17 @@
                 HTML CSS
             </div>
 
-            <div class="header-right">
+            <!--<div class="header-right">-->
                 <ul class="header-nav">
-                    <li class="nav-about"><a href="#">About</a></li>
+                    <!--aのクラスは必要かどうか-->
+                    <li class="nav-about"><a href="#" class="a-about">About</a></li>
                     <li class="nav-news"><a href="#">News</a></li>
                     <li class="nav-qa"><a href="#">Q&A</a></li>
 
                 </ul>
 
 
-            </div>
+            <!--</div>-->
 
         
         </header>
@@ -33,7 +34,7 @@
 
         <main class="main-content">
             <div class="main-visual">
-                <h1  class="main-visual-ttl">We propose a life.</h1>    
+                <h1  class="main-visual-ttl"><a>We propose a life.</a></h1>    
             </div>
 
             <!--暮らしを提案する-->
@@ -41,7 +42,7 @@
             <div class="intro-section">
                 <div class="intro-section-header">
                   <!--  <div class="test">-->
-                    <img src="AdobeStock_189860956.png" class="intoro-section-img">
+                    <img src="AdobeStock_189860956.png" class="intro-section-img">
                     <div class="intro-section-txt">
                         <h3>暮らしを提案する。</h3>
                         <div class="description">
@@ -94,7 +95,8 @@
                         <input type="text" class="name" placeholder="お名前">
                         <input type="e-mail" class="mail" placeholder="メールアドレス">
                         <textarea class="contact" placeholder="お問い合わせ内容"></textarea>
-                        <input type="submit" class="submit-btn">
+                        <input type="submit" 
+                               class="submit-btn"　value="SEND">
                     </form>
                         
                     </div>
@@ -109,10 +111,12 @@
         <footer class="page-footer">
             <div class="footer-logo"> HTML CSS</div>
             <ul class="footer-nav">
-                <li>About</li>
-                <li>News</li>
-                <li>Q&A</li>
+                <li class="footer-about">About</li>
+                <li class="footer-news">News</li>
+                <li class="footer-qa">Q&A</li>
             </ul>
+            <p>@HTMLCSS.code</p>
+            
         </footer>
     </body>
 </html>
