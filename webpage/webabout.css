@@ -24,12 +24,13 @@ body {
     height: 35px;
     margin:15px 705px 10px 88px;
     text-align: center;
-    font: SemiBold 16px/16px Gill Sans;
+    font: 
     letter-spacing: 0;
     color: #918F89;
     opacity: 1;
     /*float:left;*/
     display: flex;
+    font-family:'NotoSans'  
     }
 
 .page-header {
@@ -142,13 +143,22 @@ body {
     height: 136px;
     margin:0;
     
+    
 }
 
-/*
+
 .main-visual-ttl a{
-
+    position: relative;
+    display: inline-block;
+    letter-spacing: 3px;
+    color: #918F89;
+    opacity: 1;
+    font-size: 60px;
+    top:31px;
+    left: 88px;
+    
 }
-*/
+
 
 
 /*暮らしを提案する*/
@@ -253,12 +263,19 @@ body {
 }
 
 .news-img {
-   
-   display: flex;
-    justify-content: center;
-
+    
+    display: flex;
+    justify-content: space-between;
+    margin:0 89px;
+    width: 1102px ;
     
 }
+
+.news-img img {
+    width: 334px;
+    height: 387px;
+}
+  
 
 /*お問い合わせフォーム*/
 .contact-section h6 {
@@ -284,16 +301,18 @@ body {
     justify-content: center;
 }
 
+
+
 .name {
     width: 463px;
     height: 35px;
-    border-width: 0.5px 
-    border-style:solid;
-    border-color:#707070;
-    border-bottom-color: #707070;
-    border-radius: 11px;
+    border-width: 0.5px;
+    
+    border-radius:11px;
     opacity: 0.6;
     margin:0px auto 30px ;
+    border:0.5px solid #707070;
+    
     
 }
 
@@ -301,9 +320,7 @@ body {
     width: 463px;
     height: 35px;
     background-color: #FFFFFF 0% 0% no-repeat padding-box;
-    border-width: 0.5px 
-    border-color:#707070;
-    border-style: solid;
+    border: 0.5px solid #707070;
     border-radius: 11px;
     opacity: 0.6;
     margin: 0 auto;
@@ -314,11 +331,11 @@ body {
     width: 463px;
     height: 156px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 0.5px 
-    border-color:#707070;
+    border: 0.5px solid #707070;
     border-radius: 11px;
     opacity: 0.6;
 }
+
 .contact-form textarea {
     display: block;
     margin:30px auto 60px;
@@ -327,7 +344,7 @@ body {
 
 .submit-btn {
     display: block;
-    margin: 0 auto ;
+    margin: 0 auto 221px ;
 
     width: 111px;
     height: 35px;
