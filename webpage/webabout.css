@@ -92,6 +92,19 @@ body {
     
 }
 
+.page-header a {
+    color: #272727;
+    oapcity:0.5;
+    letter-spacing: 0;
+    text-decoration: none;
+    cursor: pointer;
+    position:relative;
+    display: inline-block;
+    
+}
+
+
+
 
 /*
 .nav-about {
@@ -296,7 +309,48 @@ body {
     width: 334px;
     height: 387px;
 }
+
+.news-section p {
+    cursor: pointer;
+    letter-spacing: 1.05px;
+    color: #3B3B3B;
+    opacity: 1;
+}
   
+.news-section a {
+    text-decoration: none;
+    letter-spacing: 1.05px;
+    color: #3B3B3B;
+    opacity: 1;
+    
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+
+/*
+.news-section a:visited,
+.news-section a:link {
+    color: currentColor;
+    text-decoration: none;
+    border-bottom: 0.5px solid black;
+    transition: 0.5s ;
+}
+*/
+
+.news-section a:hover {
+    /*text-decoration: underline;
+    text-decoration-color:black;
+    text-decoration-style: solid 0.3px;
+    text-decoration: none;
+    border-bottom: 0.5px solid currentcolor ;
+    transition: .5s ;*/
+    border-bottom: 0.1px solid black;
+    transition: 0.5s;
+}
+
 
 /*お問い合わせフォーム*/
 .contact-section h6 {
