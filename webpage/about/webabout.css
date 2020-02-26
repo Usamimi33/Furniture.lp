@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import  url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 @media screen and (min-width: 479px) {
     
 * {;
@@ -192,35 +193,29 @@ body {
 /*暮らしを提案する*/
 
 .intro-section {
+    height: 500px;
     background:url('../img/AdobeStock_189860956.png') ;
     background-repeat:no-repeat;
+    margin: 142px 0 0 88px;
+    
     }
 
     
-.intro-section-header {
-    padding-top: 142px;
-    padding-left: 88px;
-    display: flex;
-    font-family: 'Noto Sans', sans-serif;
-    
-}
 
 .intro-section h2 {
     width: 474px;
     height: 29px;
     letter-spacing: 2.5px;
-    color: #3B3B3B;
+    font-family: 'Noto Sans',sans-serif;
+    color: #3B3B3B ;
     opacity: 1;
     font-size: 25px;
     font-weight: 400;
     margin: 0;
+    padding: 201px 0 40px 614px ;
 }
 
-.intro-section-txt {
-    padding-top: 201px;
-    padding-left:70px;
-    font-family: 'Noto Sans',sans-serif;
-}
+
 
 .intro-secion p {
     width: 474px;
@@ -228,8 +223,7 @@ body {
     letter-spacing: 0.36px;
     color: #3B3B3B;
     opacity: 1;
-    padding-top: 40px;
-    padding-bottom: 92px;
+    padding-left:702px;
     font-size: 12px;
     font-weight: 400;
 }
@@ -239,7 +233,8 @@ body {
 
 /*豊富なスタイル*/
 .style-section {
-    padding-top: 200px;
+   
+    
    
 }
 
