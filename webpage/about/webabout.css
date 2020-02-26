@@ -30,7 +30,7 @@ body {
     font-family: 'Noto Sans', sans-serif;   
 }
 
-.header-logo {
+.page-header p {
     width: 62px;
     height: 37px;
     margin:11px 705px 12px 88px;
@@ -190,16 +190,13 @@ body {
 
 
 /*暮らしを提案する*/
-.intro-section-img {
-    /*margin-top:142px;*/
-    width: 544px;
-    height: 500px;
-}
-/*
-.test {
-    padding:142px;
-} */
 
+.intro-section {
+    background:url('../img/AdobeStock_189860956.png') ;
+    background-repeat:no-repeat;
+    }
+
+    
 .intro-section-header {
     padding-top: 142px;
     padding-left: 88px;
@@ -208,7 +205,7 @@ body {
     
 }
 
-.intro-section-header h2 {
+.intro-section h2 {
     width: 474px;
     height: 29px;
     letter-spacing: 2.5px;
@@ -225,7 +222,7 @@ body {
     font-family: 'Noto Sans',sans-serif;
 }
 
-.description {
+.intro-secion p {
     width: 474px;
     height: 138px;
     letter-spacing: 0.36px;
@@ -236,6 +233,9 @@ body {
     font-size: 12px;
     font-weight: 400;
 }
+    
+    
+    
 
 /*豊富なスタイル*/
 .style-section {
