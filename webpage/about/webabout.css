@@ -2,10 +2,9 @@
 @import  url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 @media screen and (min-width: 479px) {
     
-* {;
+* {
     /*margin:0px;
     padding:0px*/
-
 }
 
 li {
@@ -196,7 +195,7 @@ body {
     height: 500px;
     background:url('../img/AdobeStock_189860956.png') ;
     background-repeat:no-repeat;
-    margin: 142px 0 0 88px;
+    margin: 142px 104px 0 88px;
     
     }
 
@@ -217,19 +216,21 @@ body {
 
 
 
-.intro-secion p {
+.intro-section p {
     width: 474px;
     height: 138px;
     letter-spacing: 0.36px;
     color: #3B3B3B;
     opacity: 1;
-    padding-left:702px;
+    padding-left:614px;
     font-size: 12px;
     font-weight: 400;
+    line-height: 3;
+
+    
 }
     
-    
-    
+   
 
 /*豊富なスタイル*/
 .style-section {
