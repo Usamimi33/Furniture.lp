@@ -1,0 +1,84 @@
+@charset "utf-8";
+@media screen and (max-width: 375px) {
+
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.body {
+    width: 375px;
+    height: 4142px;
+        
+}
+.page-header {
+    width: 375px;
+    height: 55px;
+    background: #918F89 0% 0% no-repeat padding-box;
+    opacity: 1;
+    align-content: center;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.header-logo {
+    width: 62px;
+    height: 37px;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 1;
+    display: flex;
+    margin: 8px 101px 10px 157px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/*メイン*/
+
+.main-content {
+    height: 647px;
+    width: 375px;
+    background:url(../img/AdobeStock_199226712.png) center center no-repeat padding-box;
+}
+
+
+.main-visual-ttl {
+    letter-spacing: 1.95px;
+    font-family: 'Noto Sans' , sans-serif;
+    color:#918F89;
+
+}
+
+.intro-section-header {
+    display: flex;
+    margin-top: 719px;
+    flex-direction: column;
+}
+
+.intro-section-header h2 {
+    order: 1;
+}
+
+.intro-section-img {
+    order: 3;
+    display: block;
+    width: 286px;
+    height: 266px;
+}
+
+.description {
+    order: 2;
+}
+
