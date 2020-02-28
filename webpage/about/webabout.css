@@ -2,10 +2,7 @@
 @import  url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 @media screen and (min-width: 479px) {
     
-* {
-    /*margin:0px;
-    padding:0px*/
-}
+
 
 li {
     list-style:none;
@@ -15,19 +12,18 @@ li {
     
 body {
     width: 1280px;
-    height: 4194px;
-    background-color: #FCFCFC  ;/*0% 0% no-repeat padding-box;*/
-    opacity: 1;
-    margin:0;
+    background-color: #FCFCFC;
+    box-sizing: border-box;
+}
     
-    }
+/*::::::::::::::::ヘッダー::::::::::::::::*/
 
 .page-header {
 
     height: 60px;
     display: flex;
     align-items: center;
-    font-family: 'Noto Sans', sans-serif;   
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .page-header p {
@@ -40,164 +36,100 @@ body {
     align-items: center;
     letter-spacing: 0;
     color: #918F89;
-    opacity: 1;
     font-weight: 600;
     line-height: 1;
-    }
+}
 
 
 .header-nav {
-    width: 336px;
-    height: 35px;
     display: flex;
     margin: 25px 89px 0 0;
-    padding-left: 0;
-    /*justify-content: center;*/
-    
+    height: 35px;
 }
 
 
 .nav-about {
-    width: 45px;
-    height: 32px;
-    text-align: left;
     margin: 3px 105px 0 0;
-    box-sizing: border-box;
-
 }
 
 
 .nav-news {
-    width:41px;
-    height: 35px;
-    text-align: left;
     margin: 0 111px 0 0;
-    box-sizing: border-box;
-    }
-
-
-.nav-qa {
-    width: 34px;
-    height: 35px;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 
 
-    
-/*.header-nav li {
-  display: flex;
-}
-*/
-
-/*.nav-about {
-    display: inline-block;
-    width: 45px;
-    height: 22px;
-    text-align: left;
-    letter-spacing: 0;
-    opacity: 1;
-    margin: 3px 105px 0 0;
-    
-        
-} */
 
 .header-nav a {
     text-decoration: none;
     color: #272727;
     letter-spacing: 0;
+    font-size: 16px;
 }
 
 
 .a-about {
-    width: 45px;
-    height: 22px;
     font-size: 16px;
     opacity: 1;
-    
 }
 
 
 .a-news,.a-qa {
-    color: #272727;
     opacity:0.5;
     cursor: pointer;
-    /*position:relative;*/
-    /*display: inline-block;*/
-    
 }
 
 
     
-    /*.nav-about {
-    display: inline-block;
-    width: 43px;
-    height:23px;
-    margin: 3px 105px 10px 0;
-    text-align: left;
-    font: ExtraLight 16px/22px Noto Sans;
-    letter-spacing: 0;
-    float: left;
-    opacity: 1;
-    }
-*/
 
-
-    
-
-/*メインビジュアル*/    
+/*:::::::::::::::::トップビジュアル::::::::::::::::*/ 
+main {
+    height: 3850px;    
+}
 
 .main-visual {
-    /*position:relative;*/
-    width: 1280px;
+    width: 100%;
     height: 741px;
-    background: transparent url('../img/AdobeStock_199226712.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: url('../img/AdobeStock_199226712.png');
 }
 
 
 
 .main-visual-ttl {
-    position: relative;
-    top: 246px;
-    /*margin:0 578px 0 0 ;*/
-    background: #FFFFFF ; /*0% 0% no-repeat padding-box */
-    opacity: 0.8;
     width: 702px;
     height: 136px;
-    margin:0;
+    background: #FFFFFF ;
+    position:absolute;
+    top: 324px;
+    opacity: 0.8;
+    font-size: 55px;
 }
 
 
-.main-visual-ttl p{
-    /*width: 559px;*/
-    height: 82px;
-    position: absolute;
+.main-visual-ttl span{
     display: inline-block;
-    letter-spacing: 3px;
-    color: #918F89;
-    opacity: 1;
-    font-size: 60px ;
+    position: relative;
     top:31px;
-    left: 88px;
-    font-family: 'Noto Sans' ,sans-serif;
-    font-weight: 400;
-    margin:0;
-
+    left:88px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 60px;
+    color:#918F89;
+    letter-spacing:3px;
+    opacity: 1;
+    font-weight: 200;
 }
 
 
 
-/*暮らしを提案する*/
+/*::::::::::::::::暮らしを提案する::::::::::::::::*/
 
 .intro-section {
     height: 500px;
     background:url('../img/AdobeStock_189860956.png') ;
     background-repeat:no-repeat;
-    margin: 142px 104px 0 88px;
-    
-    }
+    margin:142px 104px 200px 88px;
+    background-size:500px 544px;
+}
 
     
 
@@ -209,249 +141,176 @@ body {
     color: #3B3B3B ;
     opacity: 1;
     font-size: 25px;
-    font-weight: 400;
-    margin: 0;
+    font-weight: 200;
     padding: 201px 0 40px 614px ;
 }
 
 
 
 .intro-section p {
-    width: 474px;
-    height: 138px;
     letter-spacing: 0.36px;
     color: #3B3B3B;
     opacity: 1;
     padding-left:614px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight:200;
     line-height: 3;
 
     
 }
     
-   
 
-/*豊富なスタイル*/
+
+/*::::::::::::::::豊富なスタイル::::::::::::::::*/
+
 .style-section {
-   
-    
-   
+    height: 618px;
 }
-
-/*.style-section div {
-    background-color: aqua;
-}*/
-
-.style-section h1 {
+    
+.style-section h2 {
     width: 194px;
     height: 29px;
-    padding:0 543px 50px 543px ;
-    text-align: left;
+    padding:0 543px 50px ;
     font-size: 25px;
     letter-spacing: 2.5px;
     color: #3B3B3B;
-    opacity: 1;
-    margin: 0 ;
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
+    font-weight:200;
 }
 
 .style-img {
-    /*width: 964px;
-    height: 503px;*/
-    margin: 0 158px ;
-    /*ここなおす*/
-    /*margin-bottom: 30px;*/
     display: block;
-	margin: 0 auto;
-	padding: 0;
+	margin: 0 auto /*30px*/;
+    width: 964px;
+    height: 503px;
 }
 
     
-/*三つのボタン*/
+/*::::::::::::::::三つのボタン::::::::::::::::*/
     
 .btn {
     text-align: center;
-    background-color: aqua;
-  }
+    height:30px;
+ }
 
 .btn button {
     outline: none;
     border: none;
-    width: 6px;
-    height: 6px;
     opacity: 0.3;
-    margin: 30px auto 210px;
-  }
+    color: #A5A5A5 ;
+    padding:0;
+    font-size:6px;
+    height: 6px;
+    width: 6px;
+    padding-top: 30px;
+}
 
     
 .center {
-    width: 6px;
-    height: 6px;
     opacity: 1 !important;
-    color: #A5A5A5 ;
-    
+    color: #A5A5A5 ; 
 }
-*/
 
-/*ニュース*/
+    
+/*::::::::::::::::ニュース::::::::::::::::*/
 
 .news-section {
-    margin-top: 246px;
+    padding-top: 210px;
     font-family: 'Noto Sans', sans-serif;
-    background-color:
 }
 
-.news-section h1 {
-    width: 79px;
+.news-section h2 {
+    width: 82px;
     height: 29px;
-    text-align: left;
     font-size:25px;
     letter-spacing: 2.5px;
     color: #3B3B3B;
-    opacity: 1;
-    /*padding:0 ;*/
     margin:0px auto ;
     padding-bottom: 50px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 
 .img-sofa {
     width: 334px;
-    height: 387px;
-    background:transparent url('../img/AdobeStock_59829158_Preview.png') 0% 0% no-repeat;
+    height: 387px; background:url('../img/AdobeStock_59829158_Preview.png') 0% 0% no-repeat;
     display: inline-block;
 }
 
 .img-chair {
     width: 334px;
     height: 387px;
-    background:transparent url('../img/AdobeStock_74141361.png') 0% 0% no-repeat;
+    background:url('../img/AdobeStock_74141361.png') 0% 0% no-repeat;
     display: inline-block;
-    
 }
+    
 
 
 
 .img-table {
     width: 334px;
     height: 387px;
-    background:transparent url('../img/AdobeStock_221963447.png') 0% 0% no-repeat;
+    background:url('../img/AdobeStock_221963447.png') 0% 0% no-repeat;
     display: inline-block;
 }
-.news-img {
     
+.news-img {
     display: flex;
     justify-content: space-between;
-    margin:0 89px;
-    width: 1102px ;
-    
+    margin:0 89px;   
 }
+    
 
 
 
-/*.news-img img {
-    width: 334px;
-    height: 387px;
-}*/
-
-.news-section p {
+.view-more {
+    height: 22px;
     cursor: pointer;
     letter-spacing: 1.05px;
     color: #3B3B3B;
-    opacity: 1;
-}
-
-
-.news-section p {
-    width: 112px;
-    height: 22px;
-    text-align: left;
-    letter-spacing: 1.05px;
-    color: #3B3B3B;
-    opacity: 1;
-    font-size: 20px;
-    padding: 50px 578px 0 580px ;
-    margin: 0 ;
-}
-  
-
-.news-section a {
+    margin: 39px 578px 0 580px ;
+    font-size: 21px;
     text-decoration: none;
-    letter-spacing: 1.05px;
-    color: #3B3B3B;
-    opacity: 1;
-    
-    position: relative;
     display: inline-block;
+}
+
+
+
+
+/*::::::::::::::::お問い合わせフォーム::::::::::::::::*/
+.contact-section {
+    padding-top: 221px;
+}
     
-    
-}
-
-
-/*
-.news-section a:visited,
-.news-section a:link {
-    color: currentColor;
-    text-decoration: none;
-    border-bottom: 0.5px solid black;
-    transition: 0.5s ;
-}
-*/
-
-.news-section a:hover {
-    /*text-decoration: underline;
-    text-decoration-color:black;
-    text-decoration-style: solid 0.3px;
-    text-decoration: none;
-    border-bottom: 0.5px solid currentcolor ;
-    transition: .5s ;*/
-    border-bottom: 0.1px solid black;
-    transition: 0.5s;
-}
-
-
-/*お問い合わせフォーム*/
-.contact-section h1 {
-    width: 131px;
+.contact-section h2 {
     height: 29px;
     text-align: center;
     font-size:  25px;
     letter-spacing: 2.5px;
     color: #3B3B3B;
     opacity: 1;
-    padding: 221px 574.5px 60px 574.5px;
-    margin:0;
+    padding: 0 574.5px 60px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
 }
 
-/*.contact-section form {
-    padding-top: 60px;
-    
-}*/
+
 
 .contact-form input {
     display: block;
-    justify-content: center;
+    padding: 0;
 }
-
 
 
 .name {
     width: 463px;
     height: 35px;
-    border-width: 0.5px;
-    
     border-radius:11px;
     opacity: 0.6;
     margin:0px auto 30px ;
     border:0.5px solid #707070;
     font-family: 'Noto Serif JP', serif;
     box-sizing: border-box;
-    
 }
 
 .mail {
@@ -474,21 +333,17 @@ body {
     border-radius: 11px;
     opacity: 0.6;
     resize: none ;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Selif JP', serif;
     box-sizing: border-box;
-}
-
-.contact-form textarea {
     display: block;
     margin:30px auto 60px;
-    font-family: 'Noto Serif JP', serif;
-    box-sizing: border-box;
+    padding: 0;
 }
+
 
 .submit-btn {
     display: block;
     margin: 0 auto 221px ;
-
     width: 111px;
     height: 35px;
     background: #707070;
@@ -500,19 +355,15 @@ body {
     text-align: center;
     border-radius: 11px ;
     padding: 8px 36px 7px 34px;
-    
 }
 
 
-/*フッター*/
+/*::::::::::::::::フッター::::::::::::::::*/
 
 .page-footer {
-    width: 1280px;
     height: 284px;
     background: #918F89 0% 0% no-repeat padding-box;
-    opacity: 1;
     font-family: 'Noto Sans', sans-serif;
-
 }
 
 
@@ -530,7 +381,6 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    
 }
 
 .page-footer div {
@@ -552,26 +402,16 @@ body {
 
 
 .footer-about {
-    letter-spacing: 0;
-    width: 51px;
-    height: 24px;
     margin: 136px 99px 0 0 ;
-    font-size: 18px;
-    
-    
 }
 
 .footer-news {
-    width: 46px;
-    height: 24px;
     text-align: left;
     margin:133px 100px 0 0;
 }
 
 
 .footer-qa {
-    width: 39px;
-    height: 24px;
     text-align: left;
     margin: 133px 0 0 0 ;
 }
@@ -595,8 +435,7 @@ body {
     opacity: 1;
     padding: 0;
     font-size: 10px;
-    margin: 0;
-    width: 1280px;
+    margin: 0 auto;
 }
 
 }
